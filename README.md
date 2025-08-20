@@ -3,17 +3,17 @@ This project implements a Library Management System in PostgreSQL, designed to m
 
 🎯 Objectives:-
 
-> Design a normalized relational schema (Books, Authors, Members, Loans).
-> Handle many-to-many relationships via a bridge table (book_authors).
-> Create views for borrowed books, current loans, and overdue loans.
-> Implement triggers for due-date automation and overdue notifications.
-> Generate analytical reports using JOINs and aggregate functions.
+-> Design a normalized relational schema (Books, Authors, Members, Loans).
+-> Handle many-to-many relationships via a bridge table (book_authors).
+-> Create views for borrowed books, current loans, and overdue loans.
+-> Implement triggers for due-date automation and overdue notifications.
+-> Generate analytical reports using JOINs and aggregate functions.
 
 🛠️ Tools Used:-
 
-> PostgreSQL – Relational Database Management System
-> pgAdmin 4 – GUI for managing PostgreSQL
-> GitHub – Version control and documentation
+-> PostgreSQL – Relational Database Management System
+-> pgAdmin 4 – GUI for managing PostgreSQL
+-> GitHub – Version control and documentation
 
 🗂️ Project Structure
 Final-Project-Library/
@@ -27,12 +27,12 @@ Final-Project-Library/
 
 📊 Database Schema:-
 
-> members → library members
-> books → books with title, year, price
-> authors → book authors
-> book_authors → bridge table (many-to-many)
-> loans → borrowing transactions
-> notifications → overdue alerts (via trigger)
+-> members → library members
+-> books → books with title, year, price
+-> authors → book authors
+-> book_authors → bridge table (many-to-many)
+-> loans → borrowing transactions
+-> notifications → overdue alerts (via trigger)
 
 🔗 ERD:-
 
